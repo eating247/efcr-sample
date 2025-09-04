@@ -1,0 +1,164 @@
+{
+  "title:36": {
+    "data": {
+      "title": 36,
+      "wordCount": 786532,
+      "textLength": 6457310,
+      "checksum": "523d4e44",
+      "issueDate": "2025-07-18",
+      "sampleText": "54 U.S.C. 100101, 100751, 320102. Source: 48 FR 30275, June 30, 1983, unless otherwise noted. § 1.1 Purpose. (a) The regulations in this chapter provide for the proper use, management, government, and...",
+      "processedAt": "2025-08-29T00:20:58.240Z"
+    },
+    "timestamp": 1756426858240,
+    "type": "title",
+    "identifier": 36
+  },
+  "title:7": {
+    "data": {
+      "title": 7,
+      "wordCount": 4098438,
+      "textLength": 33424730,
+      "checksum": "2d455e39",
+      "issueDate": "2025-08-27",
+      "sampleText": "5 U.S.C. 301, unless otherwise noted. Subpart A—Official Records Source: 84 FR 56100, Oct. 21, 2019, unless otherwise noted. § 1.1 General provisions. (a) This subpart contains the rules that the Unit...",
+      "processedAt": "2025-08-29T00:25:53.974Z"
+    },
+    "timestamp": 1756427153974,
+    "type": "title",
+    "identifier": 7
+  },
+  "title:1": {
+    "data": {
+      "title": 1,
+      "wordCount": 50617,
+      "textLength": 421197,
+      "checksum": "3a03b870",
+      "issueDate": "2024-05-17",
+      "sampleText": "44 U.S.C. 1506; sec. 6, E.O. 10530, 19 FR 2709; 3 CFR, 1954-1958 Comp., p.189. § 1.1 Definitions. As used in this chapter, unless the context requires otherwise— Administrative Committee means the Adm...",
+      "processedAt": "2025-08-29T00:28:36.022Z"
+    },
+    "timestamp": 1756427316022,
+    "type": "title",
+    "identifier": 1
+  },
+  "agency:Administrative Conference of the United States": {
+    "data": {
+      "agency": {
+        "name": "Administrative Conference of the United States",
+        "short_name": "ACUS",
+        "display_name": "Administrative Conference of the United States",
+        "sortable_name": "Administrative Conference of the United States",
+        "slug": "administrative-conference-of-the-united-states",
+        "children": [],
+        "cfr_references": [
+          {
+            "title": 1,
+            "chapter": "III"
+          }
+        ]
+      },
+      "titleResults": [
+        {
+          "title": 1,
+          "wordCount": 50617,
+          "textLength": 421197,
+          "checksum": "3a03b870",
+          "issueDate": "2024-05-17",
+          "sampleText": "44 U.S.C. 1506; sec. 6, E.O. 10530, 19 FR 2709; 3 CFR, 1954-1958 Comp., p.189. § 1.1 Definitions. As used in this chapter, unless the context requires otherwise— Administrative Committee means the Adm...",
+          "processedAt": "2025-08-29T00:28:36.022Z"
+        }
+      ],
+      "totalWords": 50617,
+      "totalTitles": 1,
+      "processedAt": "2025-08-29T00:31:56.732Z",
+      "agencyChecksum": "11fd1600"
+    },
+    "timestamp": 1756427517734,
+    "type": "agency",
+    "identifier": "Administrative Conference of the United States"
+  },
+  "title:5": {
+    "data": {
+      "title": 5,
+      "wordCount": 1181899,
+      "textLength": 9765657,
+      "checksum": "771ca13f",
+      "issueDate": "2025-08-25",
+      "sampleText": "5 U.S.C. 3301, 3302. Source: 28 FR 10022, Sept. 14, 1963, unless otherwise noted. § 1.1 Positions and employees affected by the rules in this subchapter. The rules in this subchapter shall apply to al...",
+      "processedAt": "2025-08-29T00:52:52.707Z"
+    },
+    "timestamp": 1756428772707,
+    "type": "title",
+    "identifier": 5
+  },
+  "title:14": {
+    "data": {
+      "title": 14,
+      "wordCount": 1511123,
+      "textLength": 12489531,
+      "checksum": "1e0e36f",
+      "issueDate": "2025-08-18",
+      "sampleText": "49 U.S.C. 106(f), 40113, 44701. § 1.1 General definitions. Link to an amendment published at 90 FR 35204, July 24, 2025. As used in this chapter, unless the context requires otherwise: Administrator m...",
+      "processedAt": "2025-08-29T01:00:20.043Z"
+    },
+    "timestamp": 1756429220043,
+    "type": "title",
+    "identifier": 14
+  },
+  "title:41": {
+    "data": {
+      "title": 41,
+      "wordCount": 554537,
+      "textLength": 4572360,
+      "checksum": "6629c958",
+      "issueDate": "2025-08-12",
+      "sampleText": "Sec. 4, 49 Stat. 2038; 41 U.S.C. 38. Interpret or apply sec. 6, 49 Stat. 2038, as amended; 41 U.S.C. 40; 108 Stat. 7201; 28 U.S.C. 2461 note (Federal Civil Penalties Inflation Adjustment Act of 1990);...",
+      "processedAt": "2025-08-29T01:10:11.966Z"
+    },
+    "timestamp": 1756429811966,
+    "type": "title",
+    "identifier": 41
+  },
+  "title:2": {
+    "data": {
+      "title": 2,
+      "wordCount": 256387,
+      "textLength": 2114181,
+      "checksum": "1d3efb55",
+      "issueDate": "2025-05-15",
+      "sampleText": "31 U.S.C. 503; 31 U.S.C. 1111; 31 U.S.C. 6307; 41 U.S.C. 1121; Reorganization Plan No. 2 of 1970; E.O. 11541, 35 FR 10737. Source: 89 FR 30108, Apr. 22, 2024, unless otherwise noted. Subpart A—Introdu...",
+      "processedAt": "2025-08-29T01:11:14.510Z"
+    },
+    "timestamp": 1756429874510,
+    "type": "title",
+    "identifier": 2
+  },
+  "title:40": {
+    "data": {
+      "title": 40,
+      "wordCount": 10591883,
+      "textLength": 88183369,
+      "checksum": "720af3cc",
+      "issueDate": "2025-08-26",
+      "sampleText": "5 U.S.C. 552; Reorganization Plan No. 3 of 1970, 84 Stat. 2086 (July 9, 1970). Source: 50 FR 26721, June 28, 1985, unless otherwise noted. Subpart A—Introduction § 1.1 Creation and authority. Reorgani...",
+      "processedAt": "2025-08-29T01:11:43.759Z"
+    },
+    "timestamp": 1756429903759,
+    "type": "title",
+    "identifier": 40
+  },
+  "title:32": {
+    "data": {
+      "title": 32,
+      "wordCount": 1324308,
+      "textLength": 11161762,
+      "checksum": "7fc724c7",
+      "issueDate": "2025-08-27",
+      "sampleText": "10 U.S.C. 2340 note. Source: 62 FR 17549, Apr. 10, 1997, unless otherwise noted. § 2.1 Purpose. Section 809 of Public Law 101-510, “National Defense Authorization Act for Fiscal Year 1991,” as amended...",
+      "processedAt": "2025-08-29T01:13:21.261Z"
+    },
+    "timestamp": 1756430001261,
+    "type": "title",
+    "identifier": 32
+  }
+}
