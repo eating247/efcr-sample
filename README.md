@@ -1,4 +1,4 @@
-# USDS Engineering Take-Home Assessment Documentation
+# eCFR Analytics application
 
 ## What I Built
 
@@ -19,14 +19,14 @@ I created an eCFR Analytics application that helps people make sense of federal 
 - **PostgreSQL** (v12 or higher)
 - **npm** or **yarn**
 
-### Setup Instructions
+# Setup Instructions
 
-# Install backend dependencies
+### Install backend dependencies
 
 cd backend
 npm install
 
-# Install frontend dependencies
+### Install frontend dependencies
 
 cd ../frontend
 npm install
@@ -77,32 +77,6 @@ The frontend will start on `http://localhost:3000`
 
 - Visit `http://localhost:3000` to see the React frontend
 - Visit `http://localhost:3001` to see the backend API dashboard
-
-### Development Features
-
-- **Hot reload** - Both frontend and backend support hot reloading during development
-- **API Dashboard** - Visit `http://localhost:3001` to see all available endpoints with examples
-- **Database Health** - Check `http://localhost:3001/api/health` to verify database connectivity
-- **Cache Statistics** - Monitor cache performance at `http://localhost:3001/api/cache/stats`
-
-### Troubleshooting
-
-**Database connection issues:**
-
-- Verify PostgreSQL is running: `pg_ctl status`
-- Check your DATABASE_URL in `backend/.env`
-- Ensure the database exists: `psql -l | grep usds_ecfr`
-
-**Port conflicts:**
-
-- Backend uses port 3001, frontend uses port 3000
-- If ports are in use, you can modify them in the respective package.json files
-
-**Slow initial word counts:**
-
-- First-time word counting downloads large XML files from eCFR API
-- Subsequent requests use cached data and are much faster
-- Loading indicators show cache status
 
 ## The Original Assignment
 
@@ -167,7 +141,7 @@ I built out these endpoints to handle the different ways someone might want to e
 
 #### The Heavy Lifting: XML Processing
 
-The most intensive part of the backend is the CFRXMLWordCounter class. This thing downloads regulatory text in XML format from the eCFR public API and parses it to count words. The XML structure is pretty complex, and I found myself learning more about how CFR data is organized as I went.
+The most intensive part of the backend is the CFRXMLWordCounter class. This downloads regulatory text in XML format from the eCFR public API and parses it to count words. The XML structure is pretty complex, and I found myself learning more about how CFR data is organized as I went.
 
 The class also handles checksum verification to make sure the data hasn't been corrupted and interfaces with the caching system since you definitely don't want to be re-downloading and parsing massive XML files every time someone wants to see word counts.
 
@@ -235,15 +209,6 @@ The assignment asked for custom metrics that could inform decision-making, so I 
 - **Temporal change tracking** to understand amendment patterns over time
 - **Agency scope comparison** so you can see the relative regulatory footprint of different agencies
 - **Hierarchical analysis** that shows how regulatory responsibility is distributed across parent agencies and their child organizations
-
-## Performance Considerations
-
-A few things I focused on to keep the app responsive:
-
-- **Strategic database indexing** on the fields that get queried most often (agency names, slugs, CFR references)
-- **Efficient XML parsing** algorithms in the CFRXMLWordCounter
-- **Cache-first architecture** that tries to serve cached data before hitting external APIs
-- **Progressive loading** in the UI so users see data as it becomes available rather than staring at loading screens
 
 ## What I'd Change With More Time
 
